@@ -1,3 +1,6 @@
+
+import AppSearch from '../appSearch/AppSearch';
+
 import logo from '../../resources/icons/header-icon.svg';
 import './appHeader.sass';
 
@@ -8,10 +11,12 @@ const AppHeader = () => {
                 <ul className="nav-list">
                     <li className="nav-list__item">
                         <img src={logo} alt="logo" className="nav-list__img" />
-                        Weather anywhere in the world
+                        <p className="nav-list__text">
+                            Погода в любой точке планеты
+                        </p>
                     </li>
                     <li className="nav-list__item">
-                        Form
+                        <AppSearch/>
                     </li>
                 </ul>
             </nav>

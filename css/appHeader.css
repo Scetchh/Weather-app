@@ -4,5 +4,15 @@
   list-style-type: none;
 }
 .nav-list__img {
-  width: 6rem;
+  width: 12rem;
+  margin-right: 2rem;
+}
+.nav-list__text {
+  display: inline-block;
+  vertical-align: 4.5rem;
+}
+.nav-list__item {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 2.2rem;
+  font-weight: 700;
 }/*# sourceMappingURL=appHeader.css.map */
